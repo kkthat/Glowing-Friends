@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "glowing-friends",
+	"version": "${version}",
+	"name": "Glowing Friends",
+	"description": "Makes Your Friends \\u00a7fGlow!",
+	"authors": [
+		"kkthat"
+	],
+	"contact": {
+		"homepage": "https://github.com/kkthat/Glowing-Friends/",
+		"sources": "https://github.com/kkthat/Glowing-Friends/",
+		"issues": "https://github.com/kkthat/Glowing-Friends/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/glowing-friends/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.glowingfriends.GlowingFriends"
+		]
+	},
+	"mixins": [
+		"glowing-friends.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
